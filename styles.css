@@ -136,7 +136,8 @@ body {
     margin-top: 4rem;
 }
 #more-articles .container-sub {
-    width: 90%;
+    width: 100%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -150,7 +151,8 @@ body {
     height: 200px;
 }
 #more-articles .description-winner {
-    width: 70%;
+    width: 100%;
+    max-width: 70%;
     margin: 0 auto;
 }
 #more-articles .container-sub article {
