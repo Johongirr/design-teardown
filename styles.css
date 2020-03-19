@@ -60,6 +60,7 @@ body {
 }
 .main-articles .articles-container {
     display: flex;
+    flex-wrap: wrap;
 }
 .main-articles article {
     flex: 1;
@@ -75,6 +76,7 @@ body {
 .main-articles .more-articles {
 
     display: flex;
+    
     justify-content: space-between;
     font-size: 1rem;
 }
@@ -93,6 +95,7 @@ body {
 }
 #sub-articles .articles-container {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
     background-color: var(--lighter-gray);
 }
@@ -139,6 +142,7 @@ body {
 
 #more-articles .flex {
     display: flex;
+    flex-wrap: wrap;
    margin-bottom: 3rem;
 }
 #more-articles .winner-img {
@@ -151,6 +155,7 @@ body {
 }
 #more-articles .container-sub article {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 5rem;
     margin-right: 1rem;
@@ -176,6 +181,7 @@ body {
 }
 #guides .container-sub {
     display: flex;
+    flex-wrap: wrap;
 }
 #guides .guides-content {
     margin-right: 1rem;
@@ -220,4 +226,14 @@ body {
     width: 70%;
     max-width: 500px;
     margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .main-nav ul li {
+        display: none;
+    }
+    #sub-articles .articles-container .fx-rm {
+        display: none;
+    }
+     
 }
