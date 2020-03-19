@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --light-gray: rgb(206, 206, 206);
+    --lighter-gray: rgb(177, 177, 177);
+    --lightest-gray: rgb(122, 122, 122);
+    --darkest-gray: rgb(85, 85, 85);
+}
+span {
+    display: inline-block;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+/* desktop styles */
+/* navigation */
+.main-nav {
+    padding: 2rem;
+    background-color: var(--lighter-gray);
+}
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-nav ul li {
+    text-align: center;
+}
+.main-nav ul .nav-img {
+    width: 35px;
+    height: 35px;
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+/* main articles */
+.main-articles {
+    position: relative;
+}
+.main-articles .main-title {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: 0 auto;
+}
+.main-articles .main-title span {
+    display: block;
+    text-align: center;
+     
+}
+.main-articles .container {
+    width: 80%;
+    margin: 0 auto;
+}
+.main-articles .articles-container {
+    display: flex;
+}
+.main-articles article {
+    flex: 1;
+    background-color: var(--light-gray);
+    padding: 3rem;
+}
+.main-articles .article-title {
+    font-size: 2.2rem;
+}
+.main-articles .comment {
+    font-size: 1.4rem;
+}
+.main-articles .more-articles {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.main-articles .link-article {
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+/* more articles section */
+#sub-articles {
+    padding: 3rem 1rem;
+}
+#sub-articles h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+#sub-articles .articles-container {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: var(--lighter-gray);
+}
+#sub-articles .articles-container .fx-rm {
+    visibility: hidden;
+}
+#sub-articles .articles-container article {
+    margin-right: 1rem;
+    background-color: var(--light-gray);
+}
+#sub-articles .articles-container > * {
+    flex: 1;
+    padding: 2rem;
+     
+}
+
+#sub-articles .latest-articles {
+    text-align: center;
+    background-color: lightslategray;
+}
+/* hanbooks  */
+#handbooks {
+    background-color: var(--light-gray);
+    padding: 4rem 0;
+}
+
+#handbooks .handbooks-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#handbooks h1 {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+/* more articles */
+#more-articles {
+    margin-top: 4rem;
+}
+#more-articles .container-sub {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#more-articles .flex {
+    display: flex;
+   margin-bottom: 3rem;
+}
+#more-articles .winner-img {
+    width: 200px;
+    height: 200px;
+}
+#more-articles .description-winner {
+    width: 70%;
+    margin: 0 auto;
+}
+#more-articles .container-sub article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+}
+#more-articles .container article:last-child {
+    margin-bottom: 0;
+}
+/* featured books */
+#featured-book {
+    background-color: lightslategrey;
+    padding: 2rem;
+}
+#featured-book h1 {
+    font-size: 2.3rem;
+}
+#featured-book p {
+    margin: 1.2rem 0;
+}
+
+/* guides section */
+#guides {
+    padding: 3rem 0;
+}
+#guides .container-sub {
+    display: flex;
+}
+#guides .guides-content {
+    margin-right: 1rem;
+}
+/* newsletters */
+#newsletter {
+    padding: 3rem 0;
+    background-color: var(--light-gray);
+    text-align: center;
+}
+#newsletter .newsletter-text {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+#newsletter .newsletter-text h1 {
+    font-size: 2.5rem;
+}
+#newsletter .newsletter-img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: var(--lighter-gray);
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+/* footer */
+#footer {
+    text-align: center;
+    padding: 5rem 0;
+    background-color: var(--lightest-gray);
+}
+#footer ul li {
+    font-size: 1.4rem;
+    display: inline-block;
+}
+#footer ul {
+    margin-bottom: 3rem;
+}
+#footer .summary-site {
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+}

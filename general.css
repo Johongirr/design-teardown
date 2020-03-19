@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+
+}
+
+.rect {
+    transform: rotate(-45deg);
+    width: 40px;
+    height: 40px;
+    background-color: lightslategray;
+}
+.container-sub {
+    width: 90%;
+    margin: 0 auto;
+}
+ /* margins */
+.mb-5 {
+    margin-bottom: 5rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
